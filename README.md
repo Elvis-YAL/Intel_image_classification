@@ -14,7 +14,9 @@ The Train, Test and Prediction data is separated in each zip files. There are ar
 ![download](https://github.com/Elvis-YAL/intel-image-classification/assets/40426433/d931fb94-c7a1-4213-9dd2-fbea48a87610)
 
 In this notebook, I try simle CNN model and also employ some pretrained model. But I want to share my final model here. 
-So, if you are interested in other model, click the link to delve more.
+So, if you are interested in other model, click the link to delve more.  
+[Kaggle Link](https://www.kaggle.com/code/elvisyananlin/intel-image-classification-tansfer-learning-91-5)
+
 
 ## MobileNet  
 After testing lots of model, it seems that more basic or lightweight models perform better.  
