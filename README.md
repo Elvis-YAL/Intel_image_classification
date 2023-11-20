@@ -1,19 +1,21 @@
-# intel-image-classification
+# Intel Image Classification
 **Hey, guys. In this notebook, I will employ CNN to establish my preliminary model, followed by the utilization of transfer learning to construct the ultimate model. Throughout the process of employing transfer learning, I continuously fine-tuned and experimented with various pretrained models. I have diligently documented my contemplative journey, with the aspiration that it may also serve to stimulate your own reflections.**  
 
 First of all, Let me introduce this dataset.  
-This Data contains around 25k images of size 150x150 distributed under 6 categories.
-{'buildings' -> 0,
-'forest' -> 1,
-'glacier' -> 2,
-'mountain' -> 3,
-'sea' -> 4,
-'street' -> 5 }
+This Data contains around 25k images of size 150x150 distributed under 6 categories.  
+{'buildings' -> 0,  
+'forest' -> 1,  
+'glacier' -> 2,  
+'mountain' -> 3,  
+'sea' -> 4,  
+'street' -> 5 }  
 
 The Train, Test and Prediction data is separated in each zip files. There are around 14k images in Train, 3k in Test and 7k in Prediction.  
 ![download](https://github.com/Elvis-YAL/intel-image-classification/assets/40426433/d931fb94-c7a1-4213-9dd2-fbea48a87610)
 
-In this notebook, I try simle CNN model and also employ some pretrained model. But I want to share my final model here.  
+In this notebook, I try simle CNN model and also employ some pretrained model. But I want to share my final model here. 
+So, if you are interested in other model, click the link to delve more.
+
 ## MobileNet  
 After testing lots of model, it seems that more basic or lightweight models perform better.  
 I conducted a substantial amount of fine-tuning, including adjustments to the learning rate and experimenting with unfreezing some layers.
